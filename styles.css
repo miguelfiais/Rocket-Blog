@@ -87,6 +87,7 @@ form button{
 }
 main{
     padding: 3% 5%;
+    background: #FBF7FF;
 }
 .content-main{
     display: flex;
