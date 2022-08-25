@@ -147,3 +147,50 @@ h2{
 .bottom img{
     width: 100%;
 }
+#icon-menu{
+    display: none;
+}
+@media screen and (max-width:900px){
+    nav{
+        position: relative;
+    }
+    nav ul {
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        right: 0;
+        width: 200px;
+        background-color: #290742;
+        overflow: hidden;
+        align-items: center;
+        transition: 0.8s;
+    }
+    nav form{
+        display: none;
+    }
+    #icon-menu{
+        display: block;
+    }
+    .content-header{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .header-right{
+        order: -1;
+    }
+    .header-left h1 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .header-left p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    h2{
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .content-right .paragraph{
+        display: none;
+    }
+}
