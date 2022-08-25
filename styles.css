@@ -181,6 +181,7 @@ h2{
     .header-left h1 {
         font-size: 25px;
         line-height: 35px;
+        min-width: 0;
     }
     .header-left p {
         font-size: 14px;
